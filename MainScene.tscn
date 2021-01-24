@@ -1,0 +1,64 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://TheIntercept.ink" type="Resource" id=1]
+[ext_resource path="res://addons/paulloz.ink/InkStory.cs" type="Script" id=2]
+[ext_resource path="res://MainScene.cs" type="Script" id=3]
+
+[node name="MainScene" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VMargin" type="MarginContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_constants/margin_top = 10
+custom_constants/margin_bottom = 10
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Scroll" type="ScrollContainer" parent="VMargin"]
+margin_top = 10.0
+margin_right = 1024.0
+margin_bottom = 590.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+scroll_horizontal_enabled = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HMargin" type="MarginContainer" parent="VMargin/Scroll"]
+margin_right = 1024.0
+margin_bottom = 580.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_constants/margin_right = 10
+custom_constants/margin_left = 10
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="StoryContainer" type="VBoxContainer" parent="VMargin/Scroll/HMargin"]
+margin_left = 10.0
+margin_right = 1014.0
+margin_bottom = 580.0
+grow_horizontal = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_constants/separation = 10
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Story" type="Node" parent="."]
+script = ExtResource( 2 )
+AutoLoadStory = true
+InkFile = ExtResource( 1 )
+[connection signal="InkChoices" from="Story" to="." method="OnStoryInkChoices"]
+[connection signal="InkContinued" from="Story" to="." method="OnStoryInkContinued"]
+[connection signal="InkEnded" from="Story" to="." method="OnStoryInkEnded"]

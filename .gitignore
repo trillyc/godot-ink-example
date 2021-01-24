@@ -1,0 +1,9 @@
+.import/
+.mono/
+
+addons/paulloz.ink/
+ink-engine-runtime.dll
+ink_compiler.dll
+inklecate.exe
+*.ink
+*.ink.import

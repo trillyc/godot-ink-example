@@ -1,13 +1,11 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://TheIntercept.ink" type="Resource" id=1]
-[ext_resource path="res://addons/paulloz.ink/InkStory.cs" type="Script" id=2]
-[ext_resource path="res://MainScene.cs" type="Script" id=3]
+[ext_resource path="res://Examples/StoryContainer.cs" type="Script" id=1]
 
-[node name="MainScene" type="Control"]
+[node name="StoryContainer" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-script = ExtResource( 3 )
+script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -54,11 +52,3 @@ custom_constants/separation = 10
 __meta__ = {
 "_edit_use_anchors_": false
 }
-
-[node name="Story" type="Node" parent="."]
-script = ExtResource( 2 )
-AutoLoadStory = true
-InkFile = ExtResource( 1 )
-[connection signal="InkChoices" from="Story" to="." method="OnStoryInkChoices"]
-[connection signal="InkContinued" from="Story" to="." method="OnStoryInkContinued"]
-[connection signal="InkEnded" from="Story" to="." method="OnStoryInkEnded"]

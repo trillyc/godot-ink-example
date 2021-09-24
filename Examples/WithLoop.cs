@@ -1,5 +1,4 @@
 using Godot;
-using System;
 
 public class WithLoop : Control
 {
@@ -48,6 +47,7 @@ public class WithLoop : Control
             container.Add(container.CreateSeparation(), 0.4f);
             container.Add(container.CreateSeparation(), 0.5f);
             container.Add(container.CreateSeparation(), 0.6f);
+            SetProcess(false);
         }
     }
 

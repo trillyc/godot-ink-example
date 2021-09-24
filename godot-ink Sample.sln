@@ -1,6 +1,6 @@
 ﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "godot-ink Sample", "godot-ink Sample.csproj", "{E1E11BA1-F79A-4BCB-8A40-2E3512EF4C21}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "godot-ink Sample", "godot-ink Sample.csproj", "{F5070011-5C4F-49EF-8A29-BDE03ABB49EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,11 +9,11 @@ Global
 	ExportRelease|Any CPU = ExportRelease|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E1E11BA1-F79A-4BCB-8A40-2E3512EF4C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E1E11BA1-F79A-4BCB-8A40-2E3512EF4C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E1E11BA1-F79A-4BCB-8A40-2E3512EF4C21}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
-		{E1E11BA1-F79A-4BCB-8A40-2E3512EF4C21}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
-		{E1E11BA1-F79A-4BCB-8A40-2E3512EF4C21}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
-		{E1E11BA1-F79A-4BCB-8A40-2E3512EF4C21}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+		{F5070011-5C4F-49EF-8A29-BDE03ABB49EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5070011-5C4F-49EF-8A29-BDE03ABB49EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5070011-5C4F-49EF-8A29-BDE03ABB49EE}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{F5070011-5C4F-49EF-8A29-BDE03ABB49EE}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{F5070011-5C4F-49EF-8A29-BDE03ABB49EE}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{F5070011-5C4F-49EF-8A29-BDE03ABB49EE}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
 	EndGlobalSection
 EndGlobal

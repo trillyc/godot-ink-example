@@ -1,0 +1,15 @@
+[remap]
+
+importer="ink"
+type="Resource"
+path="res://.import/YourStory.ink-3c040a85cb3a930a6550f3bfd0597a3b.res"
+
+[deps]
+
+source_file="res://YourStory.ink"
+dest_files=[ "res://.import/YourStory.ink-3c040a85cb3a930a6550f3bfd0597a3b.res" ]
+
+[params]
+
+is_master_file=true
+compress=true

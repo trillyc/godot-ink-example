@@ -7,3 +7,4 @@ ink_compiler.dll
 inklecate.exe
 *.ink
 *.ink.import
+!YourStory.ink*

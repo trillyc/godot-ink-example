@@ -16,6 +16,8 @@ Now launch Godot and import the project.godot file from the example directory.  
 
 With the project open, go to Project > Project Settings > General and scroll the left column down to Ink. You should see a setting for Inklecate Path. Enter the path to your inklecate installation, and in the top bar set "Type:" to "Dictionary". Close that dialog and click "Build" in the upper-right corner of the Godot window. Now go to Project > Project Settings > Plugins and enable the ink plugin.
 
+To make sure the 'Story' node in the scene points to the appropriate ink file, first select this node in the Scene window. Then in the Inspector window make sure the Ink File property points to the 'YourStory.ink' file in your development directory (scroll down to load this manually if necessary).
+
 Finally, at the bottom of the screen, click the new Ink tab that should've appeared. If YourStory.ink hasn't loaded yet, then at the right-hand end of this bottom window, you can choose to Load a file and bring it in that way.
 
 ## It didn't work!
